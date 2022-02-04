@@ -1,0 +1,669 @@
+_G.autofarms = true
+while _G.autofarms do wait()
+            pcall(function()
+                local MyLevel = game.Players.LocalPlayer.Data.Level.Value
+                for i,v in pairs(game:GetService("Workspace").Enemies:GetChildren()) do
+
+
+                    if game:GetService("Players").LocalPlayer.PlayerGui.Main.Quest.Visible == false then
+
+                        if MyLevel == 1 or MyLevel <= 9 then
+
+
+                        function tween(position)
+    Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+ game.Players.LocalPlayer.Character.Humanoid:SetStateEnabled(15,false)
+
+tween(CFrame.new(1055.3137207031, 16.362735748291, 1558.8653564453))
+
+                            Mon = "Bandit [Lv. 5]"
+function tween(position)
+    Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+
+tween(CFrame.new(1055.3137207031, 16.362735748291, 1558.8653564453))
+
+
+ wait(1)
+                            game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StartQuest", "BanditQuest1", 1)
+                        elseif MyLevel == 10 or MyLevel <= 14 then 
+                        			function tween(position)
+    Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+
+tween(CFrame.new(-1616.9991455078, 36.852085113525, 144.3754119873))	
+
+							Mon = "Monkey [Lv. 14]"
+
+function tween(position)
+    Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+
+tween(CFrame.new(-1616.9991455078, 36.852085113525, 144.3754119873))	
+wait(5)
+							game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StartQuest", "JungleQuest", 1)
+
+                        elseif MyLevel == 15 or MyLevel <= 29 then -- Gorilla
+					    function tween(position)
+    Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+
+tween(CFrame.new(-1616.9991455078, 36.852085113525, 144.3754119873))
+
+							Mon = "Gorilla [Lv. 20]"
+
+function tween(position)
+    Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+
+tween(CFrame.new(-1616.9991455078, 36.852085113525, 144.3754119873))
+wait(2)
+							game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StartQuest", "JungleQuest", 2)
+							
+
+						elseif MyLevel == 30 or MyLevel <= 39 then
+
+				    function tween(position)
+    Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+
+tween(CFrame.new(-1151.4538574219, 4.5402708053589, 3830.6535644531))
+
+							Mon = "Pirate [Lv. 35]"
+
+
+				    function tween(position)
+    Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+
+tween(CFrame.new(-1151.4538574219, 4.5402708053589, 3830.6535644531))
+wait(7)
+							game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StartQuest", "BuggyQuest1", 1)
+
+elseif MyLevel == 40 or MyLevel <= 59 then
+    
+				    function tween(position)
+    Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+						tween(CFrame.new(-1151.4538574219, 4.5402708053589, 3830.6535644531))
+							wait(1.5)
+							Mon = "Brute [Lv. 45]"
+											    function tween(position)
+    Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+							tween(CFrame.new(-1151.4538574219, 4.5402708053589, 3830.6535644531))
+							wait(2)
+							game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StartQuest", "BuggyQuest1", 2)
+elseif MyLevel == 60 or MyLevel <= 74 then
+					    function tween(position)
+    Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+
+tween(CFrame.new(902.89453125, 6.513249874115, 4381.9609375))
+							wait(1.5)
+							Mon = "Desert Bandit [Lv. 60]"
+												    function tween(position)
+    Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+
+tween(CFrame.new(902.89453125, 6.513249874115, 4381.960937))
+wait(5)
+							game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StartQuest", "DesertQuest", 1)
+elseif MyLevel == 75 or MyLevel <= 89 then
+						    
+						    function tween(position)
+    Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+
+tween(CFrame.new(902.89453125, 6.513249874115, 4381.9609375))
+							Mon = "Desert Officer [Lv. 70]"
+
+		     function tween(position)
+    Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+
+tween(CFrame.new(902.89453125, 6.513249874115, 4381.9609375))
+-- Script generated by TurtleSpy, made by Intrer#0421
+wait(3)
+game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StartQuest","DesertQuest",2)
+elseif MyLevel == 90 or MyLevel <= 99 then
+							    				     function tween(position)
+    Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(1375.642578125, 87.272789001465, -1297.5194091797))
+				    							wait(1.5)
+							Mon = "Snow Bandit [Lv. 90]"
+														    				     function tween(position)
+    Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(1375.642578125, 87.272789001465, -1297.5194091797))
+	wait(7)
+							game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StartQuest", "SnowQuest", 1)
+							elseif MyLevel == 100 or MyLevel <= 119 then
+					    							    				     function tween(position)
+    Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(1375.642578125, 87.272789001465, -1297.5194091797))
+							wait(1.5)
+							Mon = "Snowman [Lv. 100]"
+												    							    				     function tween(position)
+    Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(1375.642578125, 87.272789001465, -1297.5194091797))
+	wait(6)
+							game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StartQuest", "SnowQuest", 2)
+							elseif MyLevel == 120 or MyLevel <= 149 then
+					    										    							    				     function tween(position)
+    Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(-5022.310546875, 31.248245239258, 4339.8891601563))
+							wait(1.5)
+							Mon = "Chief Petty Officer [Lv. 120]"
+							NaemQuest = "MarineQuest2"
+							LevelQuest = 1
+										    										    							    				     function tween(position)
+    Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(-5022.310546875, 31.248245239258, 4339.8891601563))
+	wait(10)
+							game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StartQuest", NaemQuest, LevelQuest)
+							elseif MyLevel == 150 or MyLevel <= 174 then
+					    										    										    							    				     function tween(position)
+    Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(-4835.0776367188, 717.67218017578, -2652.3461914063))
+							wait(1.5)
+							Mon = "Sky Bandit [Lv. 150]"
+							NaemQuest = "SkyQuest"
+							LevelQuest = 1
+					function tween(position)
+ Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(-4835.0776367188, 717.67218017578, -2652.3461914063))
+	wait(10)
+							game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StartQuest", NaemQuest, LevelQuest)
+							elseif MyLevel == 175 or MyLevel <= 224 then
+					    					function tween(position)
+ Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(-4835.0776367188, 717.67218017578, -2652.3461914063))
+							wait(1.5)
+							Mon = "Dark Master [Lv. 175]"
+							NaemQuest = "SkyQuest"
+							LevelQuest = 2
+														elseif MyLevel == 175 or MyLevel <= 224 then
+					    					function tween(position)
+ Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(-4835.0776367188, 717.67218017578, -2652.3461914063))
+	wait(5)
+							game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StartQuest", NaemQuest, LevelQuest)
+														elseif MyLevel == 225 or MyLevel <= 274 then
+					    					    					function tween(position)
+ Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(-1568.8129882813, 9.7575836181641, -2993.7229003906))
+							wait(1.5)
+							Mon = "Toga Warrior [Lv. 225]"
+							NaemQuest = "ColosseumQuest"
+							LevelQuest = 1
+												    					    					function tween(position)
+ Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(-1568.8129882813, 9.7575836181641, -2993.7229003906))
+	wait(8)
+							game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StartQuest", NaemQuest, LevelQuest)
+														elseif MyLevel == 275 or MyLevel <= 299 then
+					    												    					    					function tween(position)
+ Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(-1568.8129882813, 9.7575836181641, -2993.7229003906))
+							wait(1.5)
+							Mon = "Gladiator [Lv. 275]"
+							NaemQuest = "ColosseumQuest"
+							LevelQuest = 2
+						function tween(position)
+ Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(-1568.8129882813, 9.7575836181641, -2993.7229003906))
+	wait(3)
+							game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StartQuest", NaemQuest, LevelQuest)
+														elseif MyLevel == 300 or MyLevel <= 329 then
+					    	function tween(position)
+ Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(-5325.9487304688, 8.5906744003296, 8499.58984375))
+							wait(1.5)
+							Mon = "Military Soldier [Lv. 300]"
+							NaemQuest = "MagmaQuest"
+							LevelQuest = 1
+												    	function tween(position)
+ Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(-5325.9487304688, 8.5906744003296, 8499.58984375))
+	wait(4)
+							game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StartQuest", NaemQuest, LevelQuest)
+														elseif MyLevel == 330 or MyLevel <= 374 then -- Military Spy
+					    											    	function tween(position)
+ Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(-5325.9487304688, 8.5906744003296, 8499.58984375))
+							wait(1.5)
+							Mon = "Military Spy [Lv. 330]"
+							NaemQuest = "MagmaQuest"
+							LevelQuest = 2
+							function tween(position)
+ Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(-5325.9487304688, 8.5906744003296, 8499.58984375))
+	wait(7)
+							game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StartQuest", NaemQuest, LevelQuest)
+														elseif MyLevel == 375 or MyLevel <= 399 then
+					    	function tween(position)
+ Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(61124.88671875, 18.47163772583, 1576.2796630859))
+							wait(1.5)
+							Mon = "Fishman Warrior [Lv. 375]"
+							NaemQuest = "FishmanQuest"
+							LevelQuest = 1
+							function tween(position)
+ Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(61124.88671875, 18.47163772583, 1576.2796630859))
+	wait(8)
+							game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StartQuest", NaemQuest, LevelQuest)
+														elseif MyLevel == 400 or MyLevel <= 449 then
+					    							function tween(position)
+ Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(61124.88671875, 18.47163772583, 1576.2796630859))
+							wait(1.5)
+							Mon = "Fishman Commando [Lv. 400]"
+							NaemQuest = "FishmanQuest"
+							LevelQuest = 2
+												    							function tween(position)
+ Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(61124.88671875, 18.47163772583, 1576.2796630859))
+	wait(4)
+							game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StartQuest", NaemQuest, LevelQuest)
+														elseif MyLevel == 450 or MyLevel <= 474 then
+					    												    							function tween(position)
+ Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(-4717.8950195313, 854.15832519531, -1939.4560546875))
+	wait(1.5)
+							Mon = "God's Guard [Lv. 450]"
+							NaemQuest = "SkyExp1Quest"
+							LevelQuest = 1
+								function tween(position)
+ Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(-4717.8950195313, 854.15832519531, -1939.4560546875))
+	wait(10)
+							game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StartQuest", NaemQuest, LevelQuest)
+														elseif MyLevel == 475 or MyLevel <= 524 then
+					    						function tween(position)
+ Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(-7873.6352539063, 5545.5537109375, -372.72387695313))
+							wait(1.5)
+							Mon = "Shanda [Lv. 475]"
+							NaemQuest = "SkyExp1Quest"
+							LevelQuest = 2
+												    						function tween(position)
+ Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(-7873.6352539063, 5545.5537109375, -372.72387695313))
+	wait(5)
+							game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StartQuest", NaemQuest, LevelQuest)
+														elseif MyLevel == 525 or MyLevel <= 549 then
+														    function tween(position)
+ Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(-7894.9692382813, 5635.9624023438, -1414.08984375))
+							wait(1.5)
+							Mon = "Royal Squad [Lv. 525]"
+							NaemQuest = "SkyExp2Quest"
+							LevelQuest = 1
+																					    function tween(position)
+ Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(-7894.9692382813, 5635.9624023438, -1414.08984375))
+	wait(5)
+							game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StartQuest", NaemQuest, LevelQuest)
+														elseif MyLevel == 550 or MyLevel <= 624 then
+					    																					    function tween(position)
+ Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(-7894.9692382813, 5635.9624023438, -1414.08984375))
+							wait(1.5)
+							Mon = "Royal Soldier [Lv. 550]"
+							NaemQuest = "SkyExp2Quest"
+							LevelQuest = 2
+											    																					    function tween(position)
+ Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(-7894.9692382813, 5635.9624023438, -1414.08984375))
+	wait(5)
+							game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StartQuest", NaemQuest, LevelQuest)
+														elseif MyLevel == 625 or MyLevel <= 649 then
+					    					 function tween(position)
+ Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(5249.2646484375, 38.501129150391, 4047.1259765625))
+							wait(1.5)
+							Mon = "Galley Pirate [Lv. 625]"
+							NaemQuest = "FountainQuest"
+							LevelQuest = 1
+							wait(12)
+							game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StartQuest", NaemQuest, LevelQuest)
+										elseif MyLevel == 625 or MyLevel <= 649 then
+					    					 function tween(position)
+ Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(5249.2646484375, 38.501129150391, 4047.1259765625))
+										elseif MyLevel >= 650 then
+					     function tween(position)
+ Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(5249.2646484375, 38.501129150391, 4047.1259765625))
+							wait(1.5)
+							Mon = "Galley Captain [Lv. 650]"
+							NaemQuest = "FountainQuest"
+							LevelQuest = 2
+												     function tween(position)
+ Distance = (position.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/250, Enum.EasingStyle.Linear),
+        {CFrame = position}
+    ):Play()
+end
+	tween(CFrame.new(5249.2646484375, 38.501129150391, 4047.1259765625))
+	wait(12)
+							game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StartQuest", NaemQuest, LevelQuest)
+
+                        end
+                                            elseif game:GetService("Players").LocalPlayer.PlayerGui.Main.Quest.Visible == true then
+
+
+                        if v.Name == Mon then
+                                game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+                                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,50,0)
+                                 
+spawn(function()
+   while wait() do
+       if _G.WARP then
+           game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
+        else
+            game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
+        end
+    end
+end)
+                                
+                                game:GetService'VirtualUser':CaptureController()
+    game:GetService'VirtualUser':Button1Down(Vector2.new(1280, 672))
+                                v.HumanoidRootPart.Size = Vector3.new(150,150,100)
+                                v.HumanoidRootPart.CanCollide = false
+                                v.Humanoid:ChangeState(11)
+                                v.HumanoidRootPart.Transparency = 0.5
+local RunService = game:GetService("RunService")
+function getEnemy()
+    local mob = game.Workspace.Enemies:GetChildren()
+    for i = 1, #mob do
+        local v = mob[i]
+        if v:FindFirstChild("Humanoid") and v.Humanoid.Health > 0 then
+            return v
+        end 
+    end
+    return nil
+end
+   
+                                game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+                                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFRAMEQUEST
+                                game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+
+                            end
+                        end
+                                end
+
+end)
+end
