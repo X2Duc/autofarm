@@ -627,17 +627,9 @@ end
 
                         if v.Name == Mon then
                                 game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
-                                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,50,0)
+                                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(25,15,15)
                                  
-spawn(function()
-   while wait() do
-       if _G.WARP then
-           game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
-        else
-            game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
-        end
-    end
-end)
+
                                 
 spawn(function()
    game:GetService("RunService").RenderStepped:Connect(function()
