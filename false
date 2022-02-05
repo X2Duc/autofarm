@@ -629,28 +629,9 @@ end
                                 game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,8,8)
                                  
-
-                                
-spawn(function()
-   game:GetService("RunService").RenderStepped:Connect(function()
-    pcall(function()
-        local Combat = require(game:GetService("Players").LocalPlayer.PlayerScripts.CombatFramework)
-        local Cemara = require(game:GetService("Players").LocalPlayer.PlayerScripts.CombatFramework.CameraShaker)
-        Cemara.CameraShakeInstance.CameraShakeState = {FadingIn = 3, FadingOut = 2, Sustained = 0, Inactive = 1}
-        Combat.activeController.timeToNextAttack = 0
-    end)
-end) 
-end)
-
-
-spawn(function()
-   game:GetService("RunService").RenderStepped:Connect(function()
-    pcall(function()
-        game:GetService'VirtualUser':CaptureController()
+ game:GetService'VirtualUser':CaptureController()
         game:GetService'VirtualUser':Button1Down(Vector2.new(1280, 672))
-    end)
-end) 
-end)
+
                                 v.HumanoidRootPart.Size = Vector3.new(150,150,100)
                                 v.HumanoidRootPart.CanCollide = false
                                 v.Humanoid:ChangeState(11)
